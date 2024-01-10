@@ -1,0 +1,97 @@
+/* UserProfile.css */
+/* Add this to your global styles or a dedicated CSS file for your entire application */
+
+
+
+/* Add other global styles as needed */
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.user-profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a39f9f
+
+    /* Add general styles for the user profile section */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-details {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.edit-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.preview {
+    margin-top: 15px;
+}
+
+.preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    /* Apply styles for screens with a maximum width of 600px */
+    .user-profile-container {
+        padding: 10px;
+    }
+}
+
+/* UserProfile.css */
